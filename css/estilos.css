@@ -1,0 +1,36 @@
+body{
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+header h2{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+header nav{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+Footer {
+  background-color: #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.central {
+  background: #82c3a6;
+  height: 25%;
+}
