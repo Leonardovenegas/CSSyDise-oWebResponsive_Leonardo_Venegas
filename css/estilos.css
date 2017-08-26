@@ -1,6 +1,10 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body {
   width: 900px;
   margin: 0 auto;
+  background: #02010a;
+  font-family: 'Dancing Script';
 }
 
 header {
@@ -24,6 +28,10 @@ header nav{
   vertical-align: middle;
 }
 
+header A::selection{
+  text-decoration: none;
+}
+
 Footer {
   background-color: #C6d5c5;
   border-bottom-left-radius: 10px;
@@ -32,5 +40,17 @@ Footer {
 
 .central {
   background: #82c3a6;
-  height: 25%;
+  height: 80%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.central img{
+  width: 60%;
+  height: 80%;
+  display: block;
+  margin: auto;
 }
