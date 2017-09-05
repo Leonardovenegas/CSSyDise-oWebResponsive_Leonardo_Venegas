@@ -9,12 +9,23 @@ body {
 
 header {
   background-color: #5b7989;
+  height: 100px;
+  width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+header .titulo{
+  width: 50%;
+  float: left;
+}
+
+header .links{
+  width: 50%;
+  float: left;
+  padding-top: 40px;
 }
 
 header h2{
@@ -23,24 +34,54 @@ header h2{
 }
 
 header nav{
-  text-align: right;
-  display: inline-block;
   vertical-align: middle;
+  float: right;
 }
 
-header A::selection{
-  text-decoration: none;
-}
-
-Footer {
+footer{
   background-color: #C6d5c5;
+  height: 180px;
+  width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  text-align: justify;
+}
+
+footer img{
+  width: 15%;
+  height: 10%;
+}
+
+footer h2{
+  text-align: center;
+  margin: 0;
+}
+
+footer .izq{
+  width: 25%;
+  float: left;
+}
+
+footer .centralizq{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+footer .drch{
+  width: 25%;
+  float: right;
+  text-align: center;
+}
+
+footer .centraldrch{
+  width: 25%;
+  float: left;
 }
 
 .central {
   background: #82c3a6;
-  height: 80%;
+  height: 350px;
   align-content: center;
   display: flex;
   justify-content: center;
@@ -49,8 +90,26 @@ Footer {
 }
 
 .central img{
-  width: 60%;
-  height: 80%;
+  width: 50%;
+  height: 70%;
   display: block;
   margin: auto;
+}
+
+.secundarias {
+  background: #d5c75f;
+  height: 350px;
+  border: 1px;
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.secundarias img{
+  width: 70%;
+  height: 90%;
+  margin: 12.5% auto;
 }
