@@ -113,3 +113,44 @@ footer .centraldrch{
   height: 90%;
   margin: 12.5% auto;
 }
+
+.galeria{
+  background: #d5c75f;
+  height: 400px;
+  border: 1px;
+  vertical-align: middle;
+  text-align:center;
+}
+
+article .columna1{
+  width: 33.3%;
+  float: left;
+}
+
+article .columna2{
+  width: 33.3%;
+  float: left;
+}
+
+article .columna3{
+  width: 33.3%;
+  float: right;
+}
+
+article div img{
+  width: 70%;
+  height: 85%;
+  margin: 5%;
+}
+
+#imagen1{
+  filter: blur(10px);
+}
+
+#imagen2, #imagen4, #imagen6{
+  filter: grayscale(100%);
+}
+
+#imagen3{
+  filter: sepia(90%);
+}
