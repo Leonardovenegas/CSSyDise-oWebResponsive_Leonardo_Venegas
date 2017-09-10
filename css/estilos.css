@@ -7,9 +7,13 @@ body {
   font-family: 'Dancing Script';
 }
 
+img{
+  box-shadow: 2px 2px 2px #02010a;
+}
+
 header {
   background-color: #5b7989;
-  height: 100px;
+  height: 75px;
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -36,6 +40,14 @@ header h2{
 header nav{
   vertical-align: middle;
   float: right;
+}
+
+.links a{
+  color: white;
+}
+
+.links a:active::after{
+  text-decoration: none;
 }
 
 footer{
@@ -90,28 +102,61 @@ footer .centraldrch{
 }
 
 .central img{
-  width: 50%;
-  height: 70%;
+  width: 90%;
+  height: 90%;
   display: block;
   margin: auto;
 }
 
-.secundarias {
+.secundarias{
   background: #d5c75f;
   height: 350px;
   border: 1px;
-  column-count: 2;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  display: block;
-  text-align: center;
-  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
 }
 
-.secundarias img{
-  width: 70%;
+.secundarias p{
+  text-decoration: underline;
+  text-align: center;
+  margin-top: -8%;
+  color: black;
+}
+
+.secIzq{
+  width: 50%;
+  float: left;
+}
+
+.secIzq img{
+  width: 75%;
   height: 90%;
-  margin: 12.5% auto;
+  display: block;
+  margin: 12.5%;
+}
+
+.secIzq img:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+
+.secDer{
+  width: 50%;
+  float: right;
+}
+
+.secDer img{
+  width: 75%;
+  height: 90%;
+  display: block;
+  margin: 8%;
+}
+
+.secDer img:hover{
+  transform: translateY(-5px)
+             translateX(20px);
+  box-shadow: 2px 2px 2px #82c3a6;
 }
 
 .galeria{
